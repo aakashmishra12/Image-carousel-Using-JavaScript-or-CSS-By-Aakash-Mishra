@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .different {
+            width: 217px;
+            font-family: 'New York Extra Large';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 24px;
+            line-height: 29px;
+            color: #030D20;
+            border-left: 5px solid #5193F5;
+            padding-left: 28px;
+            /* transition: 0.5s linear; */
+        }
+
+        /* .clarity,
+        .Transparency,
+        .Cost,
+        .Effective,
+        .Strategy {
+            border-left: 5px solid #5193F5;
+        } */
+
+        .difference-title {
+            height: 94px;
+            display: flex;
+            align-items: center;
+        }
+
+        .clarity-desk,
+        .Transparency-desk,
+        .Cost-desk,
+        .Effective-desk,
+        .Strategy-desk {
+            display: none;
+        }
+
+        .diff-desk {
+            font-family: 'DM Sans';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 28px;
+            /* or 175% */
+            color: rgba(3, 13, 32, 0.55);
+            transition: 0.5s ease;
+            -webkit-transition: opacity 600ms, visibility 600ms;
+            transition: opacity 600ms, visibility 600ms;
+            padding-bottom: 28px;
+        }
+
+        /* .different:hover {
+            animation: fade 1s;
+        } */
+
+        .clarity:hover .clarity-desk {
+            display: block;
+            animation: fade 1s;
+        }
+
+        .Strategy:hover .Strategy-desk {
+            display: block;
+            animation: fade 1s;
+        }
+
+        .Effective:hover .Effective-desk {
+            display: block;
+            animation: fade 1s;
+        }
+
+        .Cost:hover .Cost-desk {
+            display: block;
+            animation: fade 1s;
+        }
+
+        .Transparency:hover .Transparency-desk {
+            display: block;
+            animation: fade 1s;
+        }
+
+        @keyframes fade {
+            0% {
+                opacity: 0;
+            }
+
+            100% {
+                opacity: 1;
+            }
+        }
+
+        .difference-con {
+            display: flex;
+            justify-content: space-between;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="difference-con">
+        <div>
+            <div class="different clarity">
+                <div class="difference-title clarity"> Clarity</div>
+                <span class="diff-desk clarity-desk">
+                    An Idea clearly stated is an Idea half achieved. We ensure clarity in communication because we are
+                    genuinely
+                    curious
+                    about your purpose behind the campaign.
+                </span>
+            </div>
+        </div>
+
+
+
+        <div>
+            <div class="different Strategy">
+                <div class="difference-title Strategy"> Strategy & Ideation
+                </div>
+                <span class="diff-desk Strategy-desk">
+                    An Idea clearly stated is an Idea half achieved. We ensure clarity in communication because we are
+                    genuinely
+                    curious
+                    about your purpose behind the campaign.
+                </span>
+            </div>
+        </div>
+
+
+
+        <div>
+            <div class="different Effective">
+                <div class="difference-title Effective"> Effective Timeline
+                </div>
+                <span class="diff-desk Effective-desk">
+                    An Idea clearly stated is an Idea half achieved. We ensure clarity in communication because we are
+                    genuinely
+                    curious
+                    about your purpose behind the campaign.
+                </span>
+            </div>
+        </div>
+
+        <div>
+            <div class="different Cost">
+                <div class="difference-title Cost"> Cost Efficient
+                </div>
+                <span class="diff-desk Cost-desk">
+                    An Idea clearly stated is an Idea half achieved. We ensure clarity in communication because we are
+                    genuinely
+                    curious
+                    about your purpose behind the campaign.
+                </span>
+            </div>
+        </div>
+
+        <div>
+            <div class="different Transparency">
+                <div class="difference-title Transparency"> Transparency</div>
+                <span class="diff-desk Transparency-desk">
+                    An Idea clearly stated is an Idea half achieved. We ensure clarity in communication because we are
+                    genuinely
+                    curious
+                    about your purpose behind the campaign.
+                </span>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+
+</html>
